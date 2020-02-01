@@ -1,0 +1,69 @@
+.wrapper-div {
+    margin-top: 2.5vh;
+    margin-Left: 3%;
+    margin-Right: 3%;
+    margin-bottom: 2.5vh;
+}
+
+.wrapper-div .wrapper-group {
+    width: 25%;
+}
+
+.picker {
+    width: 22%
+}
+
+.span-wrapper {
+    width: 25%;
+    font-size: 1.5vmax;
+    font-weight: bold;
+    padding-top: 5.3vh;
+    padding-left: 4vh;
+}
+
+.name-wrapper {
+    width: 75%;
+}
+
+.wrapper-map {
+    position: relative;
+    width: 100%;
+    height: 20em;
+    outline: none;
+    user-select: none; 
+}
+
+.wrapper-map .wrapper-marker .marker-button{ 
+    outline: none;
+    user-select: none;
+    background-image: url('../../../assets/logos/markerRed.png');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-color: Transparent;
+    border: none;
+}
+
+
+.wrapper-map .wrapper-marker .marker-button:hover{
+    user-select: none;
+
+}
+
+.wrapper-map .wrapper-geolocate{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.wrapper-map .wrapper-search{
+    height: 50;
+    display: "flex";
+    text-align: "center";
+    padding-Left: 4;
+}
+
+.dates-desc {
+    padding-top: 4vh;
+}

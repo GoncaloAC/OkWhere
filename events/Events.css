@@ -1,0 +1,32 @@
+.task-wrapper {
+    position: relative;
+    width: 100%;
+    display: table;
+    table-layout: auto;
+    background-color: rgba(212, 211, 211, 0.602)
+}
+
+.task-wrapper .text-field-wrapper {
+    width: 95%;
+    display: table-cell;
+}
+
+.task-wrapper .text-field-wrapper .text-field {
+    width: 100%;
+}
+
+.task-wrapper .tooltip-container {
+    width: 5%;
+    display: table-cell;
+    cursor: pointer;
+}
+.task-wrapper .tooltip-container .tooltip-centering{
+    transform: scale(1.5);
+    margin-left: 35%;
+    margin-top: 2vh
+    
+}
+
+.last-list {
+    margin-bottom: 25vh;
+}

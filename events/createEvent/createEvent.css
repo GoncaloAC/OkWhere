@@ -1,0 +1,78 @@
+.modal-header {
+    color: black;
+}
+
+.modal-header .form-comps {
+    width: 80%
+}
+
+.picker {
+    width: 22%
+}
+
+.success {
+    background-color: green;
+    color: green;
+}
+
+.error {
+    background-color: red;
+}
+
+.warning {
+    background-color: rgb(255, 208, 0)
+}
+
+.wrapper-map {
+    position: relative;
+    width: 100%;
+    outline: none;
+    user-select: none; 
+    min-height: 100%;
+    margin-bottom:8em;
+}
+
+.wrapper-map> *{
+    display:block;
+}
+
+.wrapper-map .search-container{
+    text-align: "center";
+}
+.wrapper-map .map-container{
+    min-width: 100%;
+}
+
+.wrapper-map .map-container .wrapper-marker .marker-button{ 
+    outline: none;
+    user-select: none;
+    background-image: url('../../../assets/logos/markerRed.png');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-color: Transparent;
+    border: none;
+}
+
+
+.wrapper-map .map-container .wrapper-marker .marker-button:hover{
+    user-select: none;
+
+}
+
+.wrapper-map .map-container .wrapper-geolocate{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.bottom-two {
+    padding-top: 10vh;
+}
+
+.desc-fix {
+    width: 100%;
+}
+
+

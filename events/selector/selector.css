@@ -1,0 +1,51 @@
+.wrapper-global{
+    width: 100%;
+    cursor: pointer;
+}
+
+.wrapper-global .selector-title {
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: black;
+    border-color: black;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+.wrapper-global .selector-wrapper {
+    position: relative;
+    height: 21vh;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15vh;
+    border: 2px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #1b1b1b 0%, #1b1b1b 74%);    
+    margin: 3vh 0;
+
+}
+
+.selector-wrapper .title-wrapper {
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 1.5vh;
+}
+
+.wrapper-global  .selector-wrapper .div-wrapper {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.selector-title .img-centerer {
+    align-self: center;
+}
+
+.selector-wrapper .img-wrapper {
+    height: 50px;
+    width: 50px;
+}

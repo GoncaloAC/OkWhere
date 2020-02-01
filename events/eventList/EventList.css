@@ -1,0 +1,79 @@
+.rectangle-wrapper {
+    border-radius: 50px;
+    margin: 3vh;
+    box-shadow: inset 0 0 15px #00000048;
+    background-image: radial-gradient(farthest-corner at 100% 100%,  rgba(17, 17, 17, 0.781), rgba(73, 70, 70, 0.39) ,rgba(187, 179, 255, 0.986));
+}
+
+.rectangle-wrapper .title-wrapper {
+    text-align: center;
+    font-size: 4vmax;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.rectangle-wrapper .table-wrapper {
+    position: relative;
+    display: table;
+    table-layout: auto;
+    width: 100%;
+    height: 50vh;
+    user-select: none;
+}
+
+.rectangle-wrapper .table-wrapper .chevron-style {
+    margin-Top: 2vh;
+    font-Size: 12vmax;
+    cursor: pointer;
+    color: rgb(70, 70, 70)
+}
+
+.rectangle-wrapper .table-wrapper .table-corner-cell {
+    display: table-cell;
+    vertical-align: center;
+    height: 100%;
+    width: 10%;
+    
+}
+
+.rectangle-wrapper .table-wrapper .table-middle-cell {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    width: 80%;
+}
+
+.rectangle-wrapper .table-wrapper .table-middle-cell .table-middle-container{
+    display: flex;
+    flex-Wrap: nowrap;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.rectangle-wrapper .table-wrapper .table-middle-cell .table-middle-container .card-wrapper {
+    width: 20%;
+    height: 95%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.rectangle-wrapper .table-wrapper .table-middle-cell .table-middle-container .card-wrapper .card-img-wrapper {
+    height: 40%;
+}
+
+.rectangle-wrapper .table-wrapper .table-middle-cell .table-middle-container .card-wrapper .card-title-wrapper {
+    height: 15%;
+}
+
+.rectangle-wrapper .table-wrapper .table-middle-cell .table-middle-container .card-wrapper .card-desc-wrapper {
+    height: 25%;
+    font-size: 3vmin;
+}
+
+.rectangle-wrapper .table-wrapper .table-middle-cell .table-middle-container .card-wrapper .card-button-wrapper {
+    background-color: rgb(0, 11, 61);
+    height: 20%;
+}
